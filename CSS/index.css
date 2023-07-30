@@ -1,0 +1,101 @@
+html {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.myWork {
+    display: grid;
+}
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.linkedin p {
+    margin-left: 150px;
+}
+.gridContainer img {
+    width: 250px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.mySkills {
+    margin-left: 80px;
+}
+.contact {
+    margin-left: 80px;
+}
+.mySkills p {
+    display: block;
+    margin-right: 600px;
+}
+.myWork h1 {
+    margin-left: 80px;
+}
+.AbilityOnline {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.Healink {
+    display: grid;
+    grid-template-columns: 36% 64%;
+}
+.AbilityOnline p {
+    display: block;
+    margin-right: 600px;
+}
+.Healink p {
+    display: block;
+    margin-left: 80px;
+}
+.gridContainer button {
+    margin-left: 800px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 5px;
+    min-width: 80px;
+}
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+}
+.navigation ul {
+    list-style-type: none;
+    width: 580px;
+    height: 10px;
+    background: white;
+    margin: 1;
+    padding-left: 1%;
+    text-align: center;
+}
+.navigation li{
+    margin-right: 10px;
+}
+.navigation a {
+    text-decoration: none;
+    color: black; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.navigation a:hover {
+    background-color: #d3d3d3;
+}
+.footer {
+    padding: 5px;
+}
+.footer ul {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.footer li {
+    padding: 0 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: black; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
