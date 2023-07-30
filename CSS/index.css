@@ -35,10 +35,12 @@ html {
 .AbilityOnline {
     display: grid;
     grid-template-columns: 30% 70%;
+    transition: transform 0.3s ease;
 }
 .Healink {
     display: grid;
     grid-template-columns: 36% 64%;
+    transition: transform 0.3s ease; 
 }
 .AbilityOnline p {
     display: block;
@@ -99,3 +101,21 @@ html {
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+.email,
+.linkedin {
+  transition: transform 0.3s ease;
+}
+.email:hover,
+.linkedin:hover {
+  transform: scale(1.2);
+}
+.AbilityOnline:hover,
+.Healink:hover,
+.gridContainer button:hover {
+  transform: scale(1.1);
+}
+.hover-effect {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
